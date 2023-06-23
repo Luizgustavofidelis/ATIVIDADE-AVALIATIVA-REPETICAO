@@ -1,0 +1,27 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//questao a
+		inteiro n 
+		inteiro x = 1
+
+		escreva("me de um numero: ")
+		leia(n)
+		enquanto( x <= n){
+			escreva(x, "\n")
+			x = x + 1
+		}
+			escreva("\n")
+		//questao b
+		escreva("questao b \n: ")
+		enquanto (n >= 1){
+			
+		
+			escreva(n, "\n")
+			n = n - 1
+}
+		
+	}
+}
