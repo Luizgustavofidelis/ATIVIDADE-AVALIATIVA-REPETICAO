@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro b
+		inteiro a
+
+		escreva("me de um numero: ")
+		leia(a)
+		escreva("me de outro: ")
+		leia(b)
+
+		enquanto (a < b){
+		escreva(b, "\n")
+		b = b - 1
+
+		}
+
+		enquanto (b < a){
+		escreva( a, "\n")
+		a = a - 1
+		}
+	}
+}
